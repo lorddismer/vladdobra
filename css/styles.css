@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.title-img {
+  width: 4px;
+  height: 4px;
+}
+
+body {
+  background-color: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+}
+
+.wrapper {
+  background-color: #ffffff(255, 255, 255);
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.603);
+}
+.my-foto {
+  width: 370px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contacts-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+}
+.contacts-link {
+  color: #7c828a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contacts-link-litters {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.tech-skills-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 55px;
+  color: #fff;
+}
+.tech-skills-container {
+  margin-left: 0px;
+  margin-right: 40px;
+  margin-top: 55px;
+  color: #cdcfd3;
+}
+.tech-skills-ittem {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #ff6b08;
+}
+.tech-skills-text {
+  color: #cdcfd3;
+}
+.soft-skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+  color: #cdcfd3;
+}
+.about-me-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.about-me-title-name {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.head {
+  width: 413px;
+  height: 107px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project-container {
+  margin-top: 65px;
+}
+.project-head {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.position-tire {
+  color: #000000;
+}
+.project-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project-dots {
+  font-weight: 100;
+  color: #bebebe;
+}
+.project-tech {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project-link-margin {
+  margin-left: 20px;
+}
+.project-item {
+  font-weight: 700;
+}
+
+.work-experience {
+  margin-top: 55px;
+  width: 1200px;
+}
+.work-experience-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.position {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-bottom: 15px;
+}
+.expirience-on-job {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bdbdbd;
+  margin-bottom: 15px;
+}
+.position-item {
+  width: 535px;
+  height: 107px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.company1 {
+  margin-bottom: 25px;
+}
+.education-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.managment {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.change-theme {
+  margin-top: -55px;
+  margin-left: 550px;
+  right: 30px;
+}
+.light-theme .theme-button {
+  color: rgb(27, 24, 24);
+  border: 1px solid #2d2b33;
+  background: rgba(58, 50, 50, 0.5);
+  padding: 7px 30px;
+  cursor: pointer;
+}
+.theme-button:hover {
+  color: rgb(51, 39, 39);
+  background: rgb(202, 151, 151);
+}
+.theme-button::before {
+  content: "";
+}
+.light-theme .theme-button::before {
+  background-image: url("../img/moon-normal.svg");
+}
+.light-theme .theme-button:hover::before {
+  background-image: url("../img/moon-hover.svg");
+}
+.theme-button::before {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 10px;
+}
+.dark-theme.wrapper {
+  background: #292933;
+  color: rgb(202, 151, 151);
+}
+
+.dark-theme .theme-button {
+  color: rgb(202, 151, 151);
+  border: 1px solid #38383b;
+  padding: 7px 30px;
+  cursor: pointer;
+  background: transparent;
+}
+.dark-theme p,
+.dark-theme a,
+.dark-theme li {
+  color: #ccc !important;
+}
+
+.dark-theme .theme-button::before {
+  background-image: url("../img/sun-normal.svg");
+}
+
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #dad8e9;
+}
+
+.dark-theme .theme-button:hover::before {
+  background-image: url("../img/sun-hover.svg");
+}
+/* Change-theme-buttom END */
+ol {
+  padding-left: 15px;
+}
+ul {
+  padding-left: 20px;
+}
